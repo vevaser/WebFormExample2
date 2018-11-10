@@ -1,0 +1,9 @@
+body {text-align:center; font-size:16pt; color : black; background-image : url("biatlon_fon_min2.jpg"); 
+      z-index:0;}
+.A {position: relative; top:50px; left:25%; text-align : center; z-index:1; background-color:white;
+    width:50%; padding: 30px; }
+table {border: 4px ridge silver; margin-left:17%; padding: 20px; text-align:left; }
+.red {color:red;}
+.mini {font-size:0.7em;}
+.but {width : 150px; border : 2px ridge silver; border-radius:5px; font-size:14pt;}
+.center {text-align:center;}
