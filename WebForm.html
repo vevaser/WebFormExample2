@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <title>Формы HTML5</title>
@@ -13,17 +13,19 @@
 	<table>
       <tr><td>Ваше имя <span class="red">*</span> :</td>
 	  <td><input type="text" name="name" id="name"
+	  pattern="[A-Za-zА-Яа-яЁё]{5,}"
 	  required placeholder="Ваше Имя"></td></tr>
 	  
 	  <tr><td>Ваш пароль <span class="red">*</span>  :</td>
 	  <td><input type="password" name="pass" id="pass" autocomplete="off"
-	  required placeholder="Ваш Пароль"></td></tr>
+	  required placeholder="Ваш Пароль"
+	  pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"></td></tr>
 	  
 	  <tr><td>Ваш телефон <span class="red">*</span> :</td>
 	  <td><input type="tel" name="tel" id="tel"
-	  required placeholder="Ваш телефон"></td></tr>
+	  required placeholder="Ваш телефон" ></td></tr>
 	  
-	  <tr><td>Ваш E-mail <span class="red">*</span> :</td><td><input type="email" name="email" id="email"
+	  <tr><td>Ваш E-mail <span class="red">*</span>:</td><td><input type="email" name="email" id="email"
 	  required placeholder="Ваш E-mail"></td></tr>
 	  
 	  <tr><td>Вид билета <span class="red">*</span>:</td>
