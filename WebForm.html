@@ -23,10 +23,12 @@
 	  
 	  <tr><td>Ваш телефон <span class="red">*</span> :</td>
 	  <td><input type="tel" name="tel" id="tel"
-	  required placeholder="Ваш телефон" ></td></tr>
+	  required placeholder="Ваш телефон" pattern="[0-9]{10}"></td></tr>
 	  
 	  <tr><td>Ваш E-mail <span class="red">*</span>:</td><td><input type="email" name="email" id="email"
-	  required placeholder="Ваш E-mail"></td></tr>
+	  required placeholder="Ваш E-mail" 
+	  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+	  ></td></tr>
 	  
 	  <tr><td>Вид билета <span class="red">*</span>:</td>
 	  <td>
