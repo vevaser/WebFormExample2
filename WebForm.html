@@ -11,18 +11,22 @@
   <h3>Биатлонный стадион "Жемчужина Сибири"</h3>
     <form name="myform" id="myform" method="post">
 	<table>
-      <tr><td>Ваше имя  :</td>
-	  <td><input type="text" name="name" id="name"></td></tr>
+      <tr><td>Ваше имя   :</td>
+	  <td><input type="text" name="name" id="name"
+	  required></td></tr>
 	  
-	  <tr><td>Ваш пароль:</td>
-	  <td><input type="password" name="pass" id="pass"></td></tr>
+	  <tr><td>Ваш пароль    :</td>
+	  <td><input type="password" name="pass" id="pass" autocomplete="off"
+	  required></td></tr>
 	  
-	  <tr><td>Ваш телефон  :</td>
-	  <td><input type="tel" name="tel" id="tel"></td></tr>
+	  <tr><td>Ваш телефон   :</td>
+	  <td><input type="tel" name="tel" id="tel"
+	  required></td></tr>
 	  
-	  <tr><td>Ваш E-mail :</td><td><input type="email" name="email" id="email"></td></tr>
+	  <tr><td>Ваш E-mail   :</td><td><input type="email" name="email" id="email"
+	  required></td></tr>
 	  
-	  <tr><td>Вид билета :</td>
+	  <tr><td>Вид билета  :</td>
 	  <td>
 	   <select name="v" id="v">
 	    <option>Трибуна А - 400 руб.</option>
@@ -33,17 +37,19 @@
 	  </select>
 	  </td></tr>
 	  
-	  <tr><td>Дата :</td><td><input type="date" name="date" id="date"></td></tr>
+	  <tr><td>Дата  :</td><td><input type="date" name="date" id="date"
+	  required></td></tr>
 	  
-	  <tr><td>Количество билетов :</td>
-	  <td><input type="number" name="kol" id="kol" min="1"></td></tr>
+	  <tr><td>Количество билетов  :</td>
+	  <td><input type="number" name="kol" id="kol" min="1"
+	  required></td></tr>
 	  
 	  
 	  <tr><td>&nbsp;</td><td>&nbsp;</td></tr> <!-- Пустая строка -->
       <tr class="center"><td><input class="but" type="reset" value="Очистить"></td>
 	  <td><input class="but" type="submit" value="Заказать"></td></tr>
 	  <tr><td>&nbsp;</td><td>&nbsp;</td></tr> <!-- Пустая строка -->
-	  <tr><td colspan="2" class="red mini">Поля отмеченные * обязательны для заполнения</td></tr>
+	  <tr><td colspan="2" class="red mini">&nbsp;</td></tr>
 	  </table>
     </form>
    </div>
